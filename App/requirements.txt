@@ -3,4 +3,5 @@ openai
 dnspython
 tiktoken
 streamlit
+python-dotenv
 langchain-community
