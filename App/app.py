@@ -8,7 +8,7 @@ from langchain.memory import ConversationBufferMemory
 
 # Load environment variables
 load_dotenv()
-api_key = os.getenv("OPENROUTER_API_KEY")
+api_key = st.secrets["OPENROUTER_API_KEY"]
 
 # Page configuration
 st.set_page_config(page_title="AI Chatbot", page_icon="🤖", layout="wide")
